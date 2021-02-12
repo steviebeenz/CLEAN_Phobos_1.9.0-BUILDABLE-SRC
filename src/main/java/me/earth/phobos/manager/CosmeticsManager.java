@@ -23,6 +23,7 @@ public class CosmeticsManager
         this.cosmeticsUserMap.put("2eb88d28-7a26-43ad-81aa-113bd818d977", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.squidLauncher}));
         this.cosmeticsUserMap.put("e75a0d3c-3442-4945-aae3-dc74dc54d8b9", Arrays.asList(Cosmetics.INSTANCE.glassesModel, Cosmetics.INSTANCE.squidLauncher));
         this.cosmeticsUserMap.put("58526350-29f5-4065-96b6-e4a05be9ec5b", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.santaHatModel}));
+        this.cosmeticsUserMap.put("5dbd02e1-ef79-42d9-85bb-297e459c2816", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.DDB5A11F-A391-4B72-B066-793D89E20A64}));
     }
 
     public List<ModelBase> getRenderModels(EntityPlayer player) {
