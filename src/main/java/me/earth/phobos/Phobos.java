@@ -57,7 +57,7 @@ public class Phobos {
     }
 
     public static void load() {
-        LOGGER.info("\n\nLoading 3arthh4ck 1.9.0");
+        LOGGER.info("\n\nLoading Deimos");
         unloaded = false;
         if (reloadManager != null) {
             reloadManager.unload();
@@ -99,7 +99,7 @@ public class Phobos {
             DiscordPresence.start();
         }
         cosmeticsManager = new CosmeticsManager();
-        LOGGER.info("3arthh4ck initialized!\n");
+        LOGGER.info("Deimos initialized!\n");
     }
 
     public static void unload(boolean unload) {
@@ -166,7 +166,7 @@ public class Phobos {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         customMainScreen = new GuiCustomMainScreen();
-        Display.setTitle("3arthh4ck - v.1.9.0");
+        Display.setTitle("Deimos Client - Minecraft 1.12.2");
         Phobos.load();
     }
 }
